@@ -76,7 +76,12 @@ cargo test
 ---
 
 ## License
-GNU GPL V3 + give me credit :3 (if you want)
+
+MIT License in effect + give me credit via name/username :3 (if you want)
+
 ---
 
-brought to you by your favourite puppygirl Liz  🐾  
+><a href="https://github.com/x-nbnv">
+>   <img src="https://avatars.githubusercontent.com/u/65957437?v=4" width="50" height="50" style="border-radius:50%; vertical-align:bottom;"/>
+> </a>
+> Brought to you by your favourite puppygirl Liz 🐾
