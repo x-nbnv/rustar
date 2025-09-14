@@ -9,6 +9,7 @@ repository = "https://github.com/x-nbnv/rustar"
 readme = "README.md"
 description = "A pure-rust USTAR implementation for OS-dev"
 authors = ["elizabeth"]
+rust-version = "1.85"
 [dependencies]
 
 [features]

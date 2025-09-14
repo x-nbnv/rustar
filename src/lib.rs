@@ -1,5 +1,7 @@
-#![cfg_attr(not(feature = "std"), no_std)]
+#![no_std]
 #![allow(dead_code)]
+
+use core::fmt::Result;
 
 extern crate alloc;
 
@@ -94,5 +96,5 @@ pub fn extract_file(archive: &[u8], filename: &str) -> Option<alloc::vec::Vec<u8
 //}
 
 pub trait TarReader {
-    fn read_block(&mut self, lba: u64, buf: &mut [u8]) -> Result<(), ()>;
+    fn read_block(&mut self, lba: u64, buf: &mut [u8]) -> Result<>;
 }
