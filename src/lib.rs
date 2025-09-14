@@ -3,7 +3,7 @@
 
 extern crate alloc;
 
-fn oct2bin(s: &[u8]) -> usize {
+pub fn oct2bin(s: &[u8]) -> usize {
     let mut n = 0;
     for &c in s {
         n *= 8;
