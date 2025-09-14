@@ -1,8 +1,14 @@
 [package]
 name = "rustar"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2024"
-
+license-file = "LICENSE"
+keywords = ["osdev", "no_std", "ustar"]
+categories = ["filesystem", "no-std", "parsing", "data-structures"]
+repository = "https://github.com/x-nbnv/rustar"
+readme = "README.md"
+description = "A pure-rust USTAR implementation for OS-dev"
+authors = ["elizabeth"]
 [dependencies]
 
 [features]
