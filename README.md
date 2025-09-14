@@ -1,9 +1,47 @@
 
-# rustar (really unproductive system tape archive)
-
+<h1 align="middle">RUSTAR
+ (really unproductive system tape archive)
+</h1>
+<div align="middle">
+ <strong>
+ bare-bones USTAR implementation for rustaceans
+ </strong>
+</div>
+</br>
+<div align="center">
+  <!-- Crates version -->
+  <a href="https://crates.io/crates/rustar">
+    <img src="https://img.shields.io/crates/v/rustar.svg?style=flat-square"
+    alt="Crates.io version" />
+  </a>
+  <!-- Downloads -->
+  <a href="https://crates.io/crates/rustar">
+    <img src="https://img.shields.io/crates/d/rustar.svg?style=flat-square"
+      alt="Download" />
+  </a>
+  <!-- docs.rs docs -->
+  <a href="https://docs.rs/rustar">
+    <img src="https://img.shields.io/badge/docs-latest-blue.svg?style=flat-square"
+      alt="docs.rs docs" />
+  </a>
+</div>
+<div align="center">
+  <h3>
+    <a href="https://github.com/dignifiedquire/async-tar/releases">
+      Releases
+    </a>
+    <span> | </span>
+    <a href="https://docs.rs/async-tar">
+      Docs (WIP)
+    </a>
+  </h3>
+</div>
+<div align="left">
+</br>
+    
 ## What is rustar?  
 **RUSTAR** (Rust + USTAR) is a minimal, safe (hopefully), and `#![no_std]`-friendly library for parsing [USTAR](https://en.wikipedia.org/wiki/Tar_(computing)#UStar_format) archives.  
-It is designed primarily for Rust-Based **OS** development, in the case one might bundle their kernel modules, init programs, or resources in a `.tar` and extract them at runtime.
+It is designed primarily for Rust-Based **OS** development, in the case one might bundle their kernel modules, init programs, or resources in a `.tar` and extract them at runtime (for an initramfs kinda thing)
 
 
 ---
