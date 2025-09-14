@@ -6,11 +6,13 @@ extern crate alloc;
 pub fn oct2bin(s: &[u8]) -> usize {
     let mut n = 0;
     for &c in s {
-        n *= 8;
-        n += (c - b'0') as usize;
+        if (b'0'..=b'7').contains(&c) {
+            n = n * 8 + (c - b'0') as usize;
+        }
     }
     n
 }
+
 
 pub struct TarHeader<'a> {
     pub name: &'a str,   // cleaned &str, no NUL padding
