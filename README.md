@@ -77,11 +77,29 @@ cargo test
 
 ## License
 
-MIT License in effect + give me credit via name/username :3 (if you want)
+MIT License used by this project so full effect of that. give me credit via name/username :3 (if you want)
 
 ---
 
-><a href="https://github.com/x-nbnv">
->   <img src="https://avatars.githubusercontent.com/u/65957437?v=4" width="50" height="50" style="border-radius:50%; vertical-align:bottom;"/>
-> </a>
-> Brought to you by your favourite puppygirl Liz 🐾
+<blockquote>
+<table align="right">
+<tr>
+<td align="right">
+
+Brought to you by your favourite puppygirl **Liz** 🐾  
+
+</td>
+<td>
+
+<a href="https://github.com/x-nbnv">
+  <img src="https://avatars.githubusercontent.com/u/65957437?v=4"
+       width="140"
+       height="140"
+       style="border-radius:50%;"/>
+</a>  
+<p align="center"><sub><a href="https://github.com/x-nbnv">x-nbnv</a></sub></p>
+
+</td>
+</tr>
+</table>
+</blockquote>
