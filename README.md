@@ -77,7 +77,7 @@ cargo test
 
 ## License
 
-MIT License used by this project so full effect of that. give me credit via name/username :3 (if you want)
+this project uses the MIT License, in full effect. give me credit via name/username :3 (if you want)
 
 ---
 
