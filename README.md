@@ -9,7 +9,7 @@ It is designed primarily for Rust-Based **OS** development, in the case one migh
 ---
 
 ## Why use rustar for an OS?
-Using RUSTAR as your embedded filesystem format has some big advantages:
+Using RUSTAR as your filesystem format handler has some big advantages:
 - **Zero external deps**: Works in `#![no_std]`, requires only `alloc` if you need owned `Vec<u8>`.  
 - **Cross-tested**: Same code works on bare metal (e.g your OS kernel) and on Linux/Win with `cargo test`.
 
