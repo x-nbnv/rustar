@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "ustar"
-version = "0.1.0"
+name = "rustar"
+version = "0.1.1"

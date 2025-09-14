@@ -1,6 +1,10 @@
 [package]
-name = "ustar"
-version = "0.1.0"
+name = "rustar"
+version = "0.1.1"
 edition = "2024"
 
 [dependencies]
+
+[features]
+default = ["std"]
+std = []
